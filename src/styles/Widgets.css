@@ -1,0 +1,52 @@
+.widgets {
+  flex: 0.2;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  position: sticky;
+  top: 70px;
+  height: fit-content;
+}
+
+.widgets__header {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.widgets__header > h2 {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.widgets__article {
+  display: flex;
+  overflow-wrap: break-word;
+  padding: 3px;
+}
+
+.widgets__articleLeft {
+  color: blue;
+}
+
+.widgets__articleRight {
+  padding-left: 5px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.widgets__article:hover {
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.widgets__articleRight > h4 {
+  font-size: 15px;
+}
+
+.widgets__articleRight > p {
+  font-size: 12px;
+  font-weight: bolder;
+  color: grey;
+}

@@ -1,0 +1,79 @@
+.header {
+  position: sticky;
+  top: 0%;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 0.1px solid lightgrey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  z-index: 999;
+}
+
+.headerLeft {
+  display: flex;
+  padding-top: 5px;
+  width: 50%;
+}
+
+.headerLeft__search {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  border-radius: 5px;
+  height: 22px;
+  color: grey;
+  background-color: #eef3f8;
+}
+
+.headerLeft__search > input {
+  outline: none;
+  border: none;
+  background: none;
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+.headerLeft > img {
+  object-fit: contain;
+  height: 40px;
+  width: 40px;
+  border-radius: 45px;
+  margin-right: 10px;
+}
+
+.headerRight {
+  display: flex;
+}
+
+.logo_container {
+  padding: 2px;
+  background-color: black;
+  cursor: pointer;
+}
+.logo {
+  border: 5px solid white;
+  background-color: black;
+}
+
+.logo > p {
+  padding: 5px;
+  font-style: italic;
+  color: white;
+}
+
+.appLogo {
+  background-color: blue;
+  border-radius: 5px;
+  width: 40px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.appLogo > p {
+  color: white;
+  padding: 3px;
+  font-weight: bolder;
+  margin-top: 5px;
+  font-style: oblique;
+}

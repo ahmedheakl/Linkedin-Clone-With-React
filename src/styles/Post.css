@@ -1,0 +1,33 @@
+.postContainer {
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.post__header {
+  display: flex;
+  margin-bottom: 10px;
+}
+.post__description {
+  margin-left: 10px;
+}
+
+.post__description > h2 {
+  font-size: 15px;
+}
+
+.post__description > p {
+  color: grey;
+  font-size: 12px;
+}
+
+.post__body {
+  overflow-wrap: anywhere;
+}
+
+.post__options {
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-evenly;
+}

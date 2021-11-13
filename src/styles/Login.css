@@ -1,0 +1,64 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.appLogo_big {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: blue;
+  padding: 15px;
+  font-size: 28px;
+  font-style: oblique;
+  font-weight: bolder;
+  color: white;
+  border-radius: 15px;
+}
+
+.appLogo_big > p {
+  color: lightgrey;
+  font-size: 13px;
+  font-style: normal;
+  margin-top: -6px;
+}
+
+.loginContainer > form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginContainer > form > input {
+  width: 350px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.loginContainer > form > button {
+  width: 365px;
+  height: 50px;
+  font-size: large;
+  color: white;
+  background-color: #0074b1;
+  border-radius: 5px;
+}
+
+.loginContainer > p {
+  margin-top: 20px;
+}
+
+.login__register {
+  color: blue;
+  margin-left: 5px;
+  cursor: pointer;
+}
